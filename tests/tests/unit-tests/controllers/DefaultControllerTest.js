@@ -12,6 +12,7 @@ describe ('DefaultController', function () {
 
     describe ('POST invalid', function () {
 
+
         before (function (done) {
             blueprint.testing.createApplicationAndStart (appPath, done)
         });
